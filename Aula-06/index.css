@@ -1,0 +1,22 @@
+table {
+  border: 5px solid black;
+  border-collapse: collapse;
+  margin: auto;
+  width: 80%;
+}
+
+th,
+td {
+  border: 2px solid black;
+  min-width: 50px;
+  width: 100px;
+  min-height: 50px;
+  height: 50px;
+  padding: 0px;
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+thead th {
+  font-size: 1.8rem;
+}

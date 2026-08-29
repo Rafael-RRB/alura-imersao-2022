@@ -1,0 +1,17 @@
+main div p:nth-child(1) {
+  background-color: black;
+  color: white;
+  font-size: 5rem;
+  padding: .5em;
+}
+
+main div p:nth-child(2) {
+  margin: 25px auto;
+  font-size: 1.8rem;
+}
+
+main div p {
+  display: block;
+  margin: 0px;
+  font-weight: 900;
+}

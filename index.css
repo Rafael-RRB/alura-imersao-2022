@@ -1,0 +1,156 @@
+:root {
+  --bRad: 2rem;
+  font-size: 1.5vw;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: var(--bRad);
+}
+
+img {
+  filter: grayscale(100);
+}
+
+
+main>div:nth-of-type(1) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+  padding: 2.5rem;
+  border: .5rem solid white;
+  border-radius: var(--bRad);
+}
+  main>div:nth-of-type(1)>img {
+    width: 12rem;
+    height: 12rem;
+    background-color: white;
+    border-radius: 50%;
+  }
+  main>div:nth-of-type(1)>div {
+    display: block;
+    width: 50%;
+    padding: 0rem 1rem;
+    background-color: white;
+    color: black;
+    border-radius: var(--bRad);
+  }
+    main>div:nth-of-type(1)>div>h2 {
+      display: block;
+      font-size: 3.6rem;
+      margin: 1.5rem auto;
+      font-weight: 900;
+    }
+    main>div:nth-of-type(1)>div>p {
+      display: block;
+      width: 50%;
+      height: 50%;
+      margin: 1.5rem auto;
+      font-size: 2.4rem;
+      text-align: center;
+    }
+
+main>div:nth-of-type(2) {
+  box-sizing: border-box;
+  background-color: black;
+}
+  main>div:nth-of-type(2)>ul {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+  }
+    main>div:nth-of-type(2)>ul>li {
+      display: flex;
+      align-items: center;
+      margin: 1rem 1rem 2rem 1rem;
+      padding: 2rem 0rem;
+      border: .5rem solid white;
+      border-radius: var(--bRad);
+      box-sizing: border-box;
+      background-color: black;
+    }
+      main>div:nth-of-type(2)>ul>li>a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        color: white;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-decoration: none;
+        box-sizing: border-box;
+      }
+        main>div:nth-of-type(2)>ul>li>a>img {
+          width: 12rem;
+          height: 12rem;
+          background-color: white;
+          border-radius: var(--bRad);
+        }
+        main>div:nth-of-type(2)>ul>li>a>h2 {
+          width: 40%;
+        }
+        main>div:nth-of-type(2)>ul>li>a>img:nth-of-type(2) {
+          width: 6rem;
+          height: 6rem;
+          border-radius: var(--bRad);
+          background: url(img/seta-off.svg) no-repeat 70% center;
+          background-color: white;
+          background-size: 75%;
+        }
+        main>div:nth-of-type(2)>ul>li>a>div {
+          position: relative;
+          width: 0px;
+          height: 0px;
+        }
+        main>div:nth-of-type(2)>ul>li>a>img:nth-of-type(2):hover+div>div,
+        main>div:nth-of-type(2)>ul>li>a>img:nth-of-type(2)+div>div:hover,
+        main>div:nth-of-type(2)>ul>li>a>img:nth-of-type(2):focus-within+div>div,
+        main>div:nth-of-type(2)>ul>li>a>img:nth-of-type(2)+div>div:focus-within {
+          min-height: 14rem;
+          background-color: black;
+        }
+          main>div:nth-of-type(2)>ul>li>a>img:nth-of-type(2)+div>div:hover>p,
+          main>div:nth-of-type(2)>ul>li>a>img:nth-of-type(2)+div>div:focus-within>p {
+            opacity: 100%;
+          }
+
+        main>div:nth-of-type(2)>ul>li>a>div {
+          position: absolute;
+          width: 70%;
+          left: 15%;
+        }
+        main>div:nth-of-type(2)>ul>li>a>div>div {
+          display: flex;
+          align-items: center;
+          position: absolute;
+          width: 96%;
+          min-height: 0rem;
+          left: 0px;
+          top: -8rem;
+          padding: 1rem;
+        }
+        main>div:nth-of-type(2)>ul>li>a>div>div>p {
+          width: auto;
+          height: inherit;
+          line-height: 1.5rem;
+          box-sizing: border-box;
+          text-align: left;
+          font-size: 1.2rem;
+          text-transform: initial;
+          opacity: 0%;
+        }
+      main>div:nth-of-type(2)>ul>li>div {
+        width: 0rem;
+        height: 0rem;
+        box-sizing: border-box;
+      }

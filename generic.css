@@ -1,0 +1,60 @@
+:root {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+header,
+main,
+footer {
+  display: block;
+  text-align: center;
+  margin: 0px;
+  padding: 1rem 0rem;
+}
+
+header {
+  color: white;
+  background-color: black;
+  font-size: 1.2em;
+  /* horizontal offset, vertical offset, blur, spread, color, inset (or leave empty) */
+  box-shadow: 0px 4px 4px 0px grey;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  font-size: 1.2em;
+}
+
+label {
+  display: block;
+  font-size: 2.4rem;
+  margin: 25px 0px;
+}
+
+input {
+  display: block;
+  min-width: 50px;
+  width: 30%;
+  min-height: 50px;
+  padding: 5px 5px 5px 10px;
+  font-size: 1.8rem;
+  margin: 12.5px auto 12.5px auto;
+  border: 4px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 2px gray;
+}
+
+button {
+  min-width: 100px;
+  height: 50px;
+  border-width: 4px;
+  border-color: darkgray;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 900;
+}

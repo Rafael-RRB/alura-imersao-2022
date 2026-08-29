@@ -1,0 +1,26 @@
+div {
+  padding: 5rem 25%;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+img {
+  display: inline-block;
+  width: 250px;
+  height: 350px;
+  filter: grayscale(100);
+}
+
+p {
+  display: inline-block;
+  width: 50%;
+  color: white;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
