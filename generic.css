@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
 body {
   margin: 0px;
 }
@@ -20,8 +24,6 @@ header {
   color: white;
   background-color: black;
   font-size: 1.2em;
-  /* horizontal offset, vertical offset, blur, spread, color, inset (or leave empty) */
-  box-shadow: 0px 4px 4px 0px grey;
 }
 
 footer {

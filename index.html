@@ -1,12 +1,12 @@
 <!-- Define a versão do html utilizado; "html" significa que deve-se utilizar a última versão. -->
 <!DOCTYPE html>
 
-<!-- Define a linguagem do website, no caso PorTuguês-BRasileiro. -->
+<!-- Define a linguagem do website, no caso Português-BRasileiro. -->
 <html lang="pt-br">
     <!-- Define informações gerais sobre a página HTML. -->
     <head>
         <meta charset="UTF-8">
-        <!-- Define a largura do website, com valor baseado na tela do hardware. -->
+        <!-- ESSENCIAL: define que 1px no CSS equivale a 1px em uma tela mobile! -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Título do website, exibido nas abas dos browsers. -->
         <title>Home - Alura Imersão Dev 2022</title>
@@ -17,17 +17,52 @@
     <!-- Corpo da página HTML, aonde o conteúdo é inserido. -->
     <body>
         <!-- Cabecalho do documento. -->
-        <header>
+        <header class='cabecalho'>
             <h1>Imersão Dev 2022 - Página inicial</h1>
         </header>
 
         <!-- Corpo do documento. -->
-        <main>
-            <!-- Conteúdo preenchido por JavaScript -->
+        <main class='conteudo'>
+            <nav class='container-carta'>
+              <a href='Aula-01/index.html' class='carta'>
+                <img src='img/aula-1__média.png' alt='TBA' class='carta-imagem'>
+                <h2 class='carta-titulo'>Média</h2>
+              </a>
+
+              <a href='Aula-02/index.html' class='carta'>
+                <img src='img/aula-2__calculadora.png' alt='TBA' class='carta-imagem'>
+                <h2 class='carta-titulo'>Calculadora</h2>
+              </a>
+
+              <a href='Aula-03/index.html' class='carta'>
+                <img src='img/aula-3__mentalista.png' alt='TBA' class='carta-imagem'>
+                <h2 class='carta-titulo'>Mentalista</h2>
+              </a>
+
+              <a href='Aula-04/index.html' class='carta'>
+                <img src='img/aula-4__aluraflix.png' alt='TBA' class='carta-imagem'>
+                <h2 class='carta-titulo'>Aluraflix</h2>
+              </a>
+
+              <a href='Aula-05/index.html' class='carta'>
+                <img src='img/aula-5__aluraflix-funcoes.png' alt='TBA' class='carta-imagem'>
+                <h2 class='carta-titulo'>Aluraflix Funções</h2>
+              </a>
+
+              <a href='Aula-06/index.html' class='carta'>
+                <img src='img/aula-6__placar.png' alt='TBA' class='carta-imagem'>
+                <h2 class='carta-titulo'>Placar</h2>
+              </a>
+
+              <a href='Aula-07/index.html' class='carta'>
+                <img src='img/aula-7+8__super-trunfo.png' alt='TBA' class='carta-imagem'>
+                <h2 class='carta-titulo'>Super Trunfo</h2>
+              </a>
+            </nav>
         </main>
 
         <!-- Rodapé do documento. -->
-        <footer>
+        <footer class='rodape'>
             <h2>&copy; Rafael R.B.</h2>
         </footer>
 

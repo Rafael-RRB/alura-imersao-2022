@@ -1,3 +1,6 @@
+/*
+CÓDIGO OBSOLETO
+
 const main = $("main");
 //↴→
 main.appendChild(create("div"));
@@ -53,3 +56,5 @@ $$("main>div")[1].querySelectorAll("ul>li>a>div>div>p")[3].innerText = `Simples 
 $$("main>div")[1].querySelectorAll("ul>li>a>div>div>p")[4].innerText = `Similar ao anterior, porém, o usuário pode inserir um título e url de imagem, além de poder deletar filmes.`;
 $$("main>div")[1].querySelectorAll("ul>li>a>div>div>p")[5].innerText = `O usuário insere dados e, a partir deles, gera uma tabela com título do jogo, times/jogadores competindo e suas vitórias, empates e derrotas. A ideia é que cada jogador deve desafiar um ao outro, e o ganhador é quem ganhar de todos sem derrota. Infelizmente, requer cuidado do usuário para evitar problemas (ex.: não inserir vitórias sem derrotas de outros)`;
 $$("main>div")[1].querySelectorAll("ul>li>a>div>div>p")[6].innerText = `O meu projeto mais complexo até a data de finalização da imersão. É um jogo de cartas estilo super trufo, utilizando monstros mitológicos, em que os jogadores (usuário e npc) recebem um deck de 30 cartas, semi-aleatoriamente geradas. Os jogadores posssuem uma quantidade de vida, e atacam e defendem em turnos, ganhando quem reduzir a vida ou número de cartas do oponente à 0.`;
+
+*/
