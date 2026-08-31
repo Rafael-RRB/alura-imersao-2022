@@ -1,9 +1,11 @@
-.cabecalho {
+.cabecalho {  
+  border-bottom: 1px solid var(--color-charcoal);  
   font-size: 2rem;
 }
 
 .conteudo {
   padding: 0px;
+  background-color: var(--color-onyx);
 }
 
 .container-carta {
@@ -23,7 +25,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: black;
+  background-color: var(--color-oil);
   width: 100%;
   height: auto;
   max-width: 384px;
@@ -32,7 +34,8 @@
   gap: 10px;
   text-decoration: none;
   box-sizing: border-box;
-  transition: transform 200ms linear;
+  transition: transform 200ms ease-out;
+  border: 1px solid var(--color-charcoal);  
 }
 
 .carta:hover {
@@ -53,14 +56,17 @@
 }
 
 .carta-titulo {
-  color: white;
+  color: var(--color-seashell);
   font-size: 1.5rem;
 }
 
 .rodape {
+  border-top: 1px solid var(--color-charcoal);  
   font-size: 1rem;
 }
 
-.cabecalho, .rodape {
+.cabecalho, .rodape {  
+  color: var(--color-seashell);
+  background-color: var(--color-oil);
   padding: 20px;
 }
